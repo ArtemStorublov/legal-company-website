@@ -1,0 +1,103 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: #00486d;
+  background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'DM Serif Text', sans-serif;
+}
+
+/*? обнулення відступів браузера */
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*? обнулення відступів браузера */
+ul {
+  list-style: none;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+button {
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*? задання max-ширини контенту сайту та відцентрування його */
+.container {
+  width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/** ==============HEADER================ */
+
+.services-item-link-icon,
+.recent-articles-link-icon {
+  fill: transparent;
+  stroke: #00486d;
+  margin-left: 8px;
+}
+
+.footer-form-sbscr-btn {
+  fill: transparent;
+  stroke: #fff;
+  background-color: #00486d;
+  border-radius: 2px;
+  border: none;
+}
+
+/** @@@@@@@@@@@@@-MEDIA-queries-@@@@@@@@@@@@@ */
+
+/* @media screen and (min-width: 428px) {
+ 
+
+/*? !!! Tablet !!! */
+
+@media (min-width: 768px) {
+}
+
+/*? !!! Desktop !!! */
+
+@media (min-width: 1158px) {
+}
