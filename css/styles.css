@@ -333,8 +333,8 @@ line-height: 1.75; */
     url(../images/bkd-img-min.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top left, -30px;
-  height: 400px;
+  background-position: top left, -45px;
+  height: 420px;
   position: relative;
 }
 
@@ -355,7 +355,6 @@ line-height: 1.75; */
   background-color: rgba(0, 69, 109, 0.7);
   padding: 30px 20px;
   width: 230px;
-  height: 350px;
   bottom: 0;
   left: 0;
 }
@@ -566,9 +565,9 @@ line-height: 1.75; */
 
 .main-footer {
   background-color: #00486d;
+  padding: 120px 0;
 }
 .footer-wrapper {
-  padding: 120px 0;
 }
 .footer-logo {
   display: block;
