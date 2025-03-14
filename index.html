@@ -30,11 +30,14 @@
 </head>
 
 <body>
-    <header class="header container">
-        <h1 class="visually-hidden">McKinley Legal Company</h1>
-        <p class="header-info-caption">We have moved into our brand new downtown office at the corner of Broadway and
-            Bellview</p>
-        <div class="nav-wrapper">
+    <header class="header">
+        <div class="header-info">
+            <h1 class="visually-hidden">McKinley Legal Company</h1>
+            <p class="header-info-caption">We have moved into our brand new downtown office at the corner of Broadway
+                and
+                Bellview</p>
+        </div>
+        <div class="nav-wrapper container">
             <nav class="header-navigation"
                 aria-label="Main navigation">
                 <a class="header-logo"
@@ -55,13 +58,15 @@
                             class="navigation-item-link">Contact</a></li>
                 </ul>
             </nav>
-            <address class="header-address">
-                <a class="address-contact"
-                    href="tel:+1234567890">(123) 456-7890</a>
-            </address>
-            <button class="header-btn-request"
-                type="button"
-                aria-label="Request consultation">Request Consultation</button>
+            <div class="header-contacts-info">
+                <address class="header-address">
+                    <a class="address-contact"
+                        href="tel:+1234567890">(123) 456-7890</a>
+                </address>
+                <button class="header-btn-request"
+                    type="button"
+                    aria-label="Request consultation">Request Consultation</button>
+            </div>
             <button class="mobile-menu-btn"
                 type="button"
                 aria-label="Open navigation menu"><svg class="mobile-menu-icon"
@@ -72,8 +77,8 @@
         </div>
     </header>
     <main class="main">
-        <section class="container">
-            <div class="hero">
+        <section class="hero-wrapper">
+            <div class="hero container">
                 <svg class="design-icon-bfr">
                     <use href="./images/svg-sprite.svg#icon-dotes"></use>
                 </svg>
